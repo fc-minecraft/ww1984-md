@@ -12,8 +12,8 @@ Some cool gif or other informative intro
 Walk the correct path of colors to open the door hiding the paintings.
 
 **Blocks Available:**
-*Move <direction> by <number>* - Wonder Woman will move in that direction the specified number of blocks.
-*repeat <number> times* - Repeat code the specified number of times.
+*Move <direction> by <number>* - Wonder Woman will move in that direction the specified number of blocks.  
+*repeat <number> times* - Repeat code the specified number of times.  
 
 ```ghost
 player.onChat("search", function () {
