@@ -1,0 +1,23 @@
+{
+    "name": "educationcontent",
+    "version": "1.1.2",
+    "dependencies": {
+        "core": "*",
+        "builder": "*"
+    },
+    "files": [
+        "README.md",
+        "crate.md",
+        "beams.md",
+        "floor.md",
+        "sneak_1.md",
+        "sneak_2.md",
+        "sneak_3.md",
+        "final.md"
+
+    ],
+    "supportedTargets": [
+        "minecraft"
+    ],
+    "preferredEditor": "tsprj"
+}
