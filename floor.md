@@ -15,7 +15,10 @@ Walk the correct path of colors to open the door containing the painting.
 *repeat <number> times* - Repeat code the specified number of times.  
 
 ```ghost
-ww.moveWW()
+ww.moveWW(Direction.Forward, 0)
+for (let index = 0; index < 4; index++) {
+    
+}
 ```
 ```package
 minecraft-ww1984=github:ReWrite-Media/ww1984-ts
