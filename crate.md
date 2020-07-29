@@ -6,7 +6,6 @@
 ### @explicitHints 1
 
 ## Search the crates
-Some cool gif or other informative intro
 
 # Search the crates
 Move through the boxes to find and retrieve the painting.
