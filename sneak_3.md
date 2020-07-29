@@ -7,7 +7,7 @@
 
 ## Laser Sneak
 
-# Laser Sneak Part 2
+# Laser Sneak Part 3
 In this room Wonder Woman will need to sneak up behind the goon and get the painting piece from him. You'll still need to make sure she avoids tripping the lasers.
 
 **Blocks Available:**  
