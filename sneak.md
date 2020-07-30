@@ -15,11 +15,7 @@ Wonder Woman needs to make her way through these rooms without tripping any alar
 *repeat <number> times* - Repeat code the specified number of times.  
 
 ```ghost
-player.onChat("run", function () {
-	for (let index = 0; index < 4; index++) {
-        ww.moveWW(Direction.Forward, 0)
-    }
-})
+ww.moveWW(Direction.Forward, 0)
 ```
 ```package
 minecraft-ww1984=github:ReWrite-Media/ww1984-ts

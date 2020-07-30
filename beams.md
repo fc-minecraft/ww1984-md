@@ -16,14 +16,7 @@ Help Wonder Women place stained glass over the beams of light to match the color
 *repeat <number> times* - Repeat code the specified number of times.  
 
 ```ghost
-
-for (let index = 0; index < 4; index++) {
-    ww.placeBlock(BeamsGlass.YellowStainedGlass, Direction.Forward)
-    ww.moveWW(Direction.Forward, 0)
-}
-player.onChat("run", function () {
-	
-})
+ww.moveWW(Direction.Forward, 0)
 ```
 
 ```package
