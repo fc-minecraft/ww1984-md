@@ -1,38 +1,37 @@
 ### @codeStart players set @s makecode 0
 ### @codeStop players set @s makecode 1
 
-### @flyoutOnly false
+### @flyoutOnly true
 ### @hideIteration true
 ### @explicitHints 1
 
 ## Hidden in Plain Sight
 
 # Hidden in Plain Sight
-The final goon is hiding amongst the gala attendees. Help Wonder Woman find and apprehend him.
+The criminal mastermind who orchestrated this heist has hidden among the gala attendees. Help Wonder Woman investigate each attendee to figure out which is the goon in hiding and then use the lasso of truth to find out where the final piece of the painting is.
 
 **Blocks Available:**  
 *Move <direction> by <number>* - Wonder Woman will move in that direction the specified number of blocks.  
-*Locate goon <direction>* - Return a boolean (*true* | *false*) of whether the goon is found in the specified direction.  
-*Apprehend goon <direction>* - Instruct Wonder Woman to apprehend the goon.  
+*Investigate attendee <direction>* - Return a boolean (*true* | *false*) of whether the attendee is a goon or not.  
+*Lasso goon <direction>* - Causes Wonder Woman to use her lasso of truth on a goon.  
 *repeat <number> times* - Repeat code the specified number of times.  
 *if / then* - Checks if a condition is *true* and then does something if so.  
 *while <boolean>* - Repeated run the code while the boolean is *true*.  
 *not <boolean>* - Switches the operation of a condition. Example: *while <true>* vs. *while not <true>*  
 
 ```ghost
-ww.moveWW(Direction.Forward, 0)
-ww.locateGoon(Direction.Forward)
-ww.apprehendGoon(Direction.Forward)
-for (let index = 0; index < 4; index++) {
-    
-}
-if () {
-    
-}
-while (true) {
-    
-}
-!(false)
+player.onChat("run", function () {
+    ww.moveWW(Direction.Forward, 0)
+    for (let index = 0; index < 4; index++) {
+        
+    }
+    if (ww.locateGoon(Direction.Forward)) {
+        ww.apprehendGoon(Direction.Forward)
+    }
+    while (!(false)) {
+        
+    }	
+})
 ```
 ```package
 minecraft-ww1984=github:ReWrite-Media/ww1984-ts

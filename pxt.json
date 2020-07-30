@@ -1,6 +1,6 @@
 {
     "name": "minecraft-ww1984-md",
-    "version": "0.1.2",
+    "version": "0.2.0",
     "dependencies": {
         "core": "*",
         "builder": "*"
@@ -10,9 +10,7 @@
         "crate.md",
         "beams.md",
         "floor.md",
-        "sneak_1.md",
-        "sneak_2.md",
-        "sneak_3.md",
+        "sneak.md",
         "final.md"
 
     ],

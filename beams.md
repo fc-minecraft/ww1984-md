@@ -1,14 +1,14 @@
 ### @codeStart players set @s makecode 0
 ### @codeStop players set @s makecode 1
 
-### @flyoutOnly false
+### @flyoutOnly true
 ### @hideIteration true 
 ### @explicitHints 1
 
 ## Beams of Color
 
 # Beams of Color
-Place stained glass over the beacons to match the color sequence needed to unlock the painting piece.
+Help Wonder Women place stained glass over the beams of light to match the color sequence displayed on the wall. You'll need to tell her where to move and which colors to place. 
 
 **Blocks Available:**  
 *Place <color> Stained Glass <direction>* - Place a piece of colored stained glass in the specified direction.  
@@ -16,11 +16,12 @@ Place stained glass over the beacons to match the color sequence needed to unloc
 *repeat <number> times* - Repeat code the specified number of times.  
 
 ```ghost
-ww.placeBlock(BeamsGlass.YellowStainedGlass, Direction.Forward)
-ww.moveWW(Direction.Forward, 0)
-for (let index = 0; index < 4; index++) {
-    
-}
+player.onChat("run", function () {
+    for (let index = 0; index < 4; index++) {
+        ww.placeBlock(BeamsGlass.YellowStainedGlass, Direction.Forward)
+        ww.moveWW(Direction.Forward, 0)
+    }
+})
 ```
 
 ```package
