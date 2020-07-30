@@ -5,22 +5,21 @@
 ### @hideIteration true
 ### @explicitHints 1
 
-## Laser Sneak
+## Stealth Mission
 
-# Laser Sneak Part 3
-In this room Wonder Woman will need to sneak up behind the goon and get the painting piece from him. You'll still need to make sure she avoids tripping the lasers.
+# Stealth Mission
+Wonder Woman needs to make her way through these rooms without tripping any alarms. If she crosses a laser, the gates will shut! Help her move through the rooms undetected.
 
 **Blocks Available:**  
 *Move <direction> by <number>* - Wonder Woman will move in that direction the specified number of blocks.  
-*Apprehend goon <direction>* - Instruct Wonder Woman to apprehend the goon.  
 *repeat <number> times* - Repeat code the specified number of times.  
 
 ```ghost
-ww.moveWW(Direction.Forward, 0)
-ww.apprehendGoon(Direction.Forward)
-for (let index = 0; index < 4; index++) {
-    
-}
+player.onChat("run", function () {
+	for (let index = 0; index < 4; index++) {
+        ww.moveWW(Direction.Forward, 0)
+    }
+})
 ```
 ```package
 minecraft-ww1984=github:ReWrite-Media/ww1984-ts

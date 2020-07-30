@@ -8,7 +8,7 @@
 ## Dance Floor
 
 # Dance Floor
-Walk the correct path of colors to open the door containing the painting.
+The colors on the wall seem to match the colors on the floor. Help Wonder Woman move over the colored blocks in the same sequence as seen on the wall. That should unlock a secret door on the back wall.
 
 **Blocks Available:**  
 *Move <direction> by <number>* - Wonder Woman will move in that direction the specified number of blocks.  
