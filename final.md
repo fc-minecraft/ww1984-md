@@ -20,7 +20,18 @@ The criminal mastermind who orchestrated this heist has hidden among the gala at
 *not <boolean>* - Switches the operation of a condition. Example: *while <true>* vs. *while not <true>*  
 
 ```ghost
-ww.moveWW(Direction.Forward, 0)
+player.onChat("run", function () {
+    ww.moveWW(Direction.Forward, 0)
+    for (let index = 0; index < 4; index++) {
+        
+    }
+    if (ww.locateGoon(Direction.Forward)) {
+        ww.apprehendGoon(Direction.Forward)
+    }
+    while (!(false)) {
+        
+    }	
+})
 ```
 ```package
 minecraft-ww1984=github:ReWrite-Media/ww1984-ts

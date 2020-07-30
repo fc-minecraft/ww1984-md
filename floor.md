@@ -16,6 +16,9 @@ The colors on the wall seem to match the colors on the floor. Help Wonder Woman 
 
 ```ghost
 ww.moveWW(Direction.Forward, 0)
+for (let index = 0; index < 4; index++) {
+    
+}
 ```
 ```package
 minecraft-ww1984=github:ReWrite-Media/ww1984-ts
