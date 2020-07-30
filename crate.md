@@ -5,9 +5,9 @@
 ### @hideIteration true 
 ### @explicitHints 1
 
-## Search the crates
+## Suspicious Crates
 
-# Search the crates
+# Suspicious Crates
 Move through the boxes to find and retrieve the painting.
 
 **Blocks Available:**  
