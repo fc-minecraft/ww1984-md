@@ -20,19 +20,17 @@ Move through the boxes to find and retrieve the painting.
 *not <boolean>* - Switches the operation of a condition. Example: *while <true>* vs. *while not <true>*  
 
 ```ghost
-ww.locatePainting(Direction.Forward)
 ww.retrievePainting(Direction.Forward)
 ww.moveWW(Direction.Forward, 0)
-if () {
+if (ww.locatePainting(Direction.Forward)) {
     
 }
 for (let index = 0; index < 4; index++) {
     
 }
-while (true) {
+while (!(false)) {
     
 }
-!(false)
 ```
 ```package
 minecraft-ww1984=github:ReWrite-Media/ww1984-ts
