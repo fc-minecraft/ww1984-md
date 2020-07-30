@@ -1,13 +1,13 @@
 ### @codeStart players set @s makecode 0
 ### @codeStop players set @s makecode 1
 
-### @flyoutOnly true
+### @flyoutOnly false
 ### @hideIteration true 
 ### @explicitHints 1
 
-## Suspicious Crates
+## Suspicious Cates
 
-# Suspicious Crates
+# Suspicious Cates
 Help Wonder Woman navigate through the crates and find the missing painting piece. Search each one and if she finds the missing puzzle piece, have her break the box to get it.
 
 **Blocks Available:**  
