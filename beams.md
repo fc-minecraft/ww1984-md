@@ -6,6 +6,8 @@
 ### @explicitHints 1
 
 # Beams of Color
+
+## Step 1
 Help Wonder Woman place stained glass over the beams of light to match the color sequence displayed on the wall. You'll need to tell her where to move and which colors to place. 
 
 **Blocks Available:**  

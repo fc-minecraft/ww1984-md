@@ -6,6 +6,8 @@
 ### @explicitHints 1
 
 # Hidden in Plain Sight
+
+## Step 1
 The criminal mastermind who orchestrated this heist has hidden among the gala attendees. Help Wonder Woman investigate each attendee to figure out which is the goon in hiding and then use the lasso of truth to find out where the final piece of the painting is.
 
 **Blocks Available:**  

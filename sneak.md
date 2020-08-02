@@ -6,10 +6,12 @@
 ### @explicitHints 1
 
 # Stealth Mission
+
+## Step 1
 Help Wonder Woman navigate through the room without triggering the alarm by avoiding the lasers. Sneak behind and takedown the goon.
 
 **Blocks Available:**  
-*Move <direction> by <number>* - Wonder Woman will move in that direction the specified number of blocks.  
+``||ww:Move <direction> by <number>||`` - Wonder Woman will move in that direction the specified number of blocks.  
 *Turn <direction>* - Wonder Woman will turn in the specified direction.  
 *Takedown goon <direction>* - Stealthily knock out the goon in the specified direction.  
 *repeat <number> times* - Repeat code the specified number of times.  

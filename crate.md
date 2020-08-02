@@ -6,6 +6,8 @@
 ### @explicitHints 1
 
 # Suspicious Crates
+
+## Step 1
 Help Wonder Woman navigate through the crates and find the missing painting piece. Search each one and if she finds the missing puzzle piece, have her break the box to get it.
 
 **Blocks Available:**  

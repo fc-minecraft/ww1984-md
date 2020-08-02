@@ -6,6 +6,8 @@
 ### @explicitHints 1
 
 # Dance Floor
+
+## Step 1
 The colors on the wall seem to match the colors on the floor. Help Wonder Woman move over the colored blocks in the same sequence as seen on the wall. That should unlock a secret door on the back wall.
 
 **Blocks Available:**  
