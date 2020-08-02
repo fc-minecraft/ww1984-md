@@ -12,9 +12,9 @@ Help Wonder Woman navigate through the room without triggering the alarm by avoi
 
 **Blocks Available:**  
 ``||ww:Move <direction> by <number>||`` - Wonder Woman will move in that direction the specified number of blocks.  
-*Turn <direction>* - Wonder Woman will turn in the specified direction.  
-*Takedown goon <direction>* - Stealthily knock out the goon in the specified direction.  
-*repeat <number> times* - Repeat code the specified number of times.  
+``||ww:Turn <direction>||`` - Wonder Woman will turn in the specified direction.  
+``||ww:Takedown goon <direction>||`` - Stealthily knock out the goon in the specified direction.  
+``||loops:repeat <number> times||`` - Repeat code the specified number of times.  
 
 ```ghost
 player.onChat("run", function () {

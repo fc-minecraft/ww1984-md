@@ -11,10 +11,10 @@
 Help Wonder Woman place stained glass over the beams of light to match the color sequence displayed on the wall. You'll need to tell her where to move and which colors to place. 
 
 **Blocks Available:**  
-*Move <direction> by <number>* - Wonder Woman will move in that direction the specified number of blocks.  
-*Turn <direction>* - Wonder Woman will turn in the specified direction.  
-*Place <color> Stained Glass <direction>* - Place a piece of colored stained glass in the specified direction.  
-*repeat <number> times* - Repeat code the specified number of times.  
+``||ww:Move <direction> by <number>||`` - Wonder Woman will move in that direction the specified number of blocks.  
+``||ww:Turn <direction>||`` - Wonder Woman will turn in the specified direction.  
+``||ww:Place <color> Stained Glass <direction>||`` - Place a piece of colored stained glass in the specified direction.  
+``||loops:repeat <number> times||`` - Repeat code the specified number of times.  
 
 ```ghost
 player.onChat("run", function () {
