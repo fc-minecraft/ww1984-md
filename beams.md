@@ -8,7 +8,7 @@
 ## Beams of Color
 
 # Beams of Color
-Help Wonder Women place stained glass over the beams of light to match the color sequence displayed on the wall. You'll need to tell her where to move and which colors to place. 
+Help Wonder Woman place stained glass over the beams of light to match the color sequence displayed on the wall. You'll need to tell her where to move and which colors to place. 
 
 **Blocks Available:**  
 *Place <color> Stained Glass <direction>* - Place a piece of colored stained glass in the specified direction.  
