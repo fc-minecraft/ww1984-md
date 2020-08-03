@@ -23,7 +23,7 @@ Help Wonder Woman navigate through the crates and find the missing painting piec
 ```ghost
 player.onChat("run", function () {
     ww.moveWW(Direction.Forward, 0)
-    ww.turnWW(Direction.Forward)
+    ww.turnWW(LEFT_TURN)
     if (ww.locatePainting(Direction.Forward)) {
         ww.retrievePainting(Direction.Forward)
     }

@@ -20,7 +20,7 @@ Help Wonder Woman navigate through the room without triggering the alarm by avoi
 player.onChat("run", function () {
     for (let index = 0; index < 4; index++) {
         ww.moveWW(Direction.Forward, 0)
-        ww.turnWW(Direction.Forward)
+        ww.turnWW(LEFT_TURN)
         ww.takedownGoon(Direction.Forward)
     }
 })

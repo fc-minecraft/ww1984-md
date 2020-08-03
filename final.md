@@ -23,7 +23,7 @@ The criminal mastermind who orchestrated this heist has hidden among the gala at
 ```ghost
 player.onChat("run", function () {
     ww.moveWW(Direction.Forward, 0)
-    ww.turnWW(Direction.Forward)
+    ww.turnWW(LEFT_TURN)
     for (let index = 0; index < 4; index++) {
         
     }

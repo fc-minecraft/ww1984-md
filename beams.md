@@ -20,7 +20,7 @@ Help Wonder Woman place stained glass over the beams of light to match the color
 player.onChat("run", function () {
     for (let index = 0; index < 4; index++) {
         ww.moveWW(Direction.Forward, 0)
-        ww.turnWW(Direction.Forward)
+        ww.turnWW(LEFT_TURN)
         ww.placeBlock(BeamsGlass.YellowStainedGlass, Direction.Forward)
     }
 })
