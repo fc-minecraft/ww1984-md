@@ -13,7 +13,7 @@ Help Wonder Woman navigate through the crates and find the missing painting piec
 **Blocks Available:**  
 ``||ww:Move <direction> by <number>||`` - Wonder Woman will move in that direction the specified number of blocks.  
 ``||ww:Turn <direction>||`` - Wonder Woman will turn in the specified direction.  
-``||ww:Search crate <direction>||`` - Return a boolean (*true* | *false*) of whether the painting is found hidden in the specified direction.  
+``||ww:painting inside crate <direction>||`` - Return a boolean (*true* | *false*) of whether the painting is found hidden in the specified direction.  
 ``||ww:Break crate <direction>||`` - Instruct Wonder Woman to try and retrieve the hidden painting.  
 ``||loops:repeat <number> times||`` - Repeat code the specified number of times.  
 ``||loops:while <boolean>||`` - Repeated run the code while the boolean is *true*.  
@@ -33,6 +33,13 @@ player.onChat("run", function () {
     while (!(false)) {
         
     }	
+})
+```
+```template
+player.onChat("run", function () {
+    if (ww.locatePainting(Direction.Forward)) {
+
+    }
 })
 ```
 ```package
