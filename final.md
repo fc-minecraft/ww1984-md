@@ -8,7 +8,7 @@
 # Hidden in Plain Sight
 
 ## Step 1
-The criminal mastermind who orchestrated this heist has hidden among the gala attendees. Help Wonder Woman check each attendee to figure out which is the goon in disguise and then use the lasso of truth to find out where the final piece of the painting is.
+The goon who planned the heist is hidden among the croud. Help Wonder Woman check each person to figure out which is the goon in disguise and then use the lasso of truth to get the final painting piece.
 
 **Blocks Available:**  
 ``||ww:Move <direction> by <number>||`` - Wonder Woman will move in that direction the specified number of blocks.  
@@ -22,7 +22,7 @@ The criminal mastermind who orchestrated this heist has hidden among the gala at
 
 ```ghost
 player.onChat("run", function () {
-    ww.moveWW(Direction.Forward, 0)
+    ww.moveWW(Direction.Forward, 1)
     ww.turnWW(LEFT_TURN)
     for (let index = 0; index < 4; index++) {
         

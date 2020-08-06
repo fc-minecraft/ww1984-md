@@ -17,11 +17,17 @@ The colors on the wall seem to match the colors on the floor. Help Wonder Woman 
 
 ```ghost
 player.onChat("run", function () {
-    ww.moveWW(Direction.Forward, 0)
+    ww.moveWW(Direction.Forward, 1)
     ww.turnWW(LEFT_TURN)
     for (let index = 0; index < 4; index++) {
         
     }
+})
+```
+```template
+player.onChat("run", function () {
+    ww.moveWW(Direction.Forward, 1)
+    ww.turnWW(RIGHT_TURN)
 })
 ```
 ```package

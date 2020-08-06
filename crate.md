@@ -8,7 +8,7 @@
 # Suspicious Crates
 
 ## Step 1
-Help Wonder Woman navigate through the crates and find the missing painting piece. Search each one and if she finds the missing puzzle piece, have her break the box to get it.
+Help Wonder Woman move through the crates and find the missing painting piece. Search each one and if she finds the missing puzzle piece, have her break the box to get it.
 
 **Blocks Available:**  
 ``||ww:Move <direction> by <number>||`` - Wonder Woman will move in that direction the specified number of blocks.  
@@ -22,7 +22,7 @@ Help Wonder Woman navigate through the crates and find the missing painting piec
 
 ```ghost
 player.onChat("run", function () {
-    ww.moveWW(Direction.Forward, 0)
+    ww.moveWW(Direction.Forward, 1)
     ww.turnWW(LEFT_TURN)
     if (ww.locatePainting(Direction.Forward)) {
         ww.retrievePainting(Direction.Forward)

@@ -8,7 +8,7 @@
 # Stealth Mission
 
 ## Step 1
-Help Wonder Woman navigate through the room without triggering the alarm by avoiding the lasers. Sneak behind and takedown the goon.
+Help Wonder Woman move through the room without triggering the alarm by avoiding the lasers. Sneak behind and takedown the goon.
 
 **Blocks Available:**  
 ``||ww:Move <direction> by <number>||`` - Wonder Woman will move in that direction the specified number of blocks.  
@@ -19,10 +19,16 @@ Help Wonder Woman navigate through the room without triggering the alarm by avoi
 ```ghost
 player.onChat("run", function () {
     for (let index = 0; index < 4; index++) {
-        ww.moveWW(Direction.Forward, 0)
+        ww.moveWW(Direction.Forward, 1)
         ww.turnWW(LEFT_TURN)
         ww.takedownGoon(Direction.Forward)
     }
+})
+```
+```template
+player.onChat("run", function () {
+    ww.moveWW(Direction.Forward, 1)
+    ww.turnWW(LEFT_TURN)
 })
 ```
 ```package
