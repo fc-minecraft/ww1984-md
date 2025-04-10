@@ -5,15 +5,15 @@
 ### @hideIteration true
 ### @explicitHints 1
 
-# Dance Floor
+# Танцевальная площадка
 
 ## Step 1
-The colors on the wall seem to match the colors on the floor. Help Wonder Woman move over the colored blocks in the same sequence as seen on the wall. That should unlock a secret door on the back wall.
+Цвета на стене, похоже, совпадают с цветами на полу. Помоги Супергерою двигаться по цветным блокам в той же последовательности, что и на стене. Это должно открыть секретную дверь на задней стене.
 
-**Blocks Available:**  
-``||ww:Move <direction> by <number>||`` - Wonder Woman will move in that *direction* the given *number* of blocks.  
-``||ww:Turn <direction>||`` - Wonder Woman will turn in the given *direction*.  
-``||loops:repeat <number> times||`` - Repeat code the given *number* of times.  
+**Доступные блоки:**
+``||ww:Двигаться <направление> на <число>||`` - Супергерой двинется в указанном *направлении* на заданное *число* блоков.
+``||ww:Повернуть <направление>||`` - Супергерой повернётся в указанном *направлении*.
+``||loops:повторить <число> раз||`` - Повторить код заданное *число* раз.
 
 ```ghost
 player.onChat("run", function () {
@@ -31,5 +31,5 @@ player.onChat("run", function () {
 })
 ```
 ```package
-minecraft-ww1984=github:ReWrite-Media/ww1984-ts
+minecraft-ww1984=github:fc-minecraft/ww1984-ts
 ```

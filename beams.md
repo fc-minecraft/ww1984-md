@@ -5,16 +5,16 @@
 ### @hideIteration true 
 ### @explicitHints 1
 
-# Beams of Color
+# Лучи цвета
 
 ## Step 1
-Help Wonder Woman place stained glass on top of the beams of light to match the color pattern shown on the wall. You'll need to tell her where to move and which colors to place. 
+Помоги Супергерою разместить витражное стекло на лучах света, чтобы оно соответствовало цветовому узору на стене. Тебе нужно будет сказать ему, куда двигаться и какие цвета размещать.
 
-**Blocks Available:**  
-``||ww:Move <direction> by <number>||`` - Wonder Woman will move in that direction the specified number of blocks.  
-``||ww:Turn <direction>||`` - Wonder Woman will turn in the specified direction.  
-``||ww:Place <color> Stained Glass <direction>||`` - Place a piece of colored stained glass in the specified direction.  
-``||loops:repeat <number> times||`` - Repeat code the specified number of times.  
+**Доступные блоки:**
+``||ww:Двигаться <направление> на <число>||`` - Супергерой двинется в указанном *направлении* на заданное *число* блоков.
+``||ww:Повернуть <направление>||`` - Супергерой повернётся в указанном *направлении*.
+``||ww:Разместить <цвет> витражное стекло <направление>||`` - Разместить кусок цветного витражного стекла в указанном *направлении*.
+``||loops:повторить <число> раз||`` - Повторить код заданное *число* раз.
 
 ```ghost
 player.onChat("run", function () {
@@ -32,5 +32,5 @@ player.onChat("run", function () {
 })
 ```
 ```package
-minecraft-ww1984=github:ReWrite-Media/ww1984-ts
+minecraft-ww1984=github:fc-minecraft/ww1984-ts
 ```

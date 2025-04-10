@@ -12,8 +12,11 @@
         "floor.md",
         "sneak.md",
         "final.md"
-
     ],
+    "targetVersions": {
+        "target": "2.0.30",
+        "targetId": "minecraft"
+    },
     "supportedTargets": [
         "minecraft"
     ],

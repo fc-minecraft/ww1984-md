@@ -5,20 +5,20 @@
 ### @hideIteration true 
 ### @explicitHints 1
 
-# Suspicious Crates
+# Подозрительные ящики
 
 ## Step 1
-Help Wonder Woman move through the crates and find the missing painting piece. Search each one and if she finds the missing puzzle piece, have her break the box to get it.
+Помоги Супергерою пройти через ящики и найти пропавший фрагмент картины. Обследуй каждый ящик, и если он найдёт пропавший фрагмент пазла, пусть разрушит ящик, чтобы забрать его.
 
-**Blocks Available:**  
-``||ww:Move <direction> by <number>||`` - Wonder Woman will move in that *direction* the given *number* of blocks.  
-``||ww:Turn <direction>||`` - Wonder Woman will turn in the given *direction*.  
-``||ww:painting inside crate <direction>||`` - Return a boolean (*true* | *false*) of whether the painting is found hidden in the given *direction*.  
-``||ww:Break crate <direction>||`` - Instruct Wonder Woman to try and retrieve the hidden painting.  
-``||loops:repeat <number> times||`` - Repeat code the given *number* of times.  
-``||loops:while <boolean>||`` - Repeatedly run the code while the boolean is *true*.  
-``||logic:if / then||`` - Checks if a condition is *true* and then does something if it is.  
-``||logic:not <boolean>||`` - Switches the operation of a condition. Example: *while <true>* vs. *while not <true>*  
+**Доступные блоки:**
+``||ww:Двигаться <направление> на <число>||`` - Супергерой двинется в указанном *направлении* на заданное *число* блоков.
+``||ww:Повернуть <направление>||`` - Супергерой повернётся в указанном *направлении*.
+``||ww:картина в ящике <направление>||`` - Возвращает булево значение (*истина* | *ложь*), находится ли картина спрятанной в указанном *направлении*.
+``||ww:Разрушить ящик <направление>||`` - Супергерой пытается достать спрятанную картину.
+``||loops:повторить <число> раз||`` - Повторить код заданное *число* раз.
+``||loops:пока <булево>||`` - Повторять код, пока булево значение *истина*.
+``||logic:если / тогда||`` - Проверяет, истинно ли условие, и делает что-то, если это так.
+``||logic:не <булево>||`` - Изменяет операцию условия. Пример: *пока <истина>* против *пока не <истина>*.
 
 ```ghost
 player.onChat("run", function () {
@@ -43,5 +43,5 @@ player.onChat("run", function () {
 })
 ```
 ```package
-minecraft-ww1984=github:ReWrite-Media/ww1984-ts
+minecraft-ww1984=github:fc-minecraft/ww1984-ts
 ```

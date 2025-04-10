@@ -5,20 +5,20 @@
 ### @hideIteration true
 ### @explicitHints 1
 
-# Hidden in Plain Sight
+# Скрытое на виду
 
 ## Step 1
-The criminal who planned the heist is hidden among the crowd. Help Wonder Woman check each person to figure out which is the thief in disguise and then use the lasso of truth to get the final painting piece.
+Преступник, который спланировал ограбление, скрывается среди толпы. Помоги Супергерою проверить каждого человека, чтобы выяснить, кто из них вор в маске, а затем используй лассо правды, чтобы получить последний фрагмент картины.
 
-**Blocks Available:**  
-``||ww:Move <direction> by <number>||`` - Wonder Woman will move in that *direction* the given *number* of blocks.  
-``||ww:Turn <direction>||`` - Wonder Woman will turn in the given *direction*.  
-``||ww:attendee is the thief <direction>||`` - Return a boolean (*true* | *false*) of whether the attendee is the thief or not.  
-``||ww:Lasso thief <direction>||`` - Causes Wonder Woman to use her lasso of truth on the thief.  
-``||loops:repeat <number> times||`` - Repeat code the given *number* of times.  
-``||loops:while <boolean>||`` - Repeatedly run the code while the boolean is *true*.  
-``||logic:if / then||`` - Checks if a condition is *true* and then does something if it is.  
-``||logic:not <boolean>||`` - Switches the operation of a condition. Example: *while <true>* vs. *while not <true>*  
+**Доступные блоки:**
+``||ww:Двигаться <направление> на <число>||`` - Супергерой двинется в указанном *направлении* на заданное *число* блоков.
+``||ww:Повернуть <направление>||`` - Супергерой повернётся в указанном *направлении*.
+``||ww:участник - вор <направление>||`` - Возвращает булево значение (*истина* | *ложь*), является ли участник вором.
+``||ww:Лассо вора <направление>||`` - Супергерой использует лассо правды на воре.
+``||loops:повторить <число> раз||`` - Повторить код заданное *число* раз.
+``||loops:пока <булево>||`` - Повторять код, пока булево значение *истина*.
+``||logic:если / тогда||`` - Проверяет, истинно ли условие, и делает что-то, если это так.
+``||logic:не <булево>||`` - Изменяет операцию условия. Пример: *пока <истина>* против *пока не <истина>*.
 
 ```ghost
 player.onChat("run", function () {
@@ -43,5 +43,5 @@ player.onChat("run", function () {
 })
 ```
 ```package
-minecraft-ww1984=github:ReWrite-Media/ww1984-ts
+minecraft-ww1984=github:fc-minecraft/ww1984-ts
 ```
