@@ -32,5 +32,5 @@
     ww.placeBlock(BeamsGlass.LimeStainedGlass, Direction.Right)
 ```
 ```package
-minecraft-ww1984=github:fc-minecraft/ww1984-ts
+minecraft-ww1984=github:fc-minecraft/ww1984-ts#v0.0.2
 ```
