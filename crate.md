@@ -29,7 +29,6 @@
 ``||logic:не <булево>||`` - Изменяет операцию условия. Пример: *пока <истина>* против *пока не <истина>*.
 
 ```ghost
-player.onChat("run", function () {
     ww.moveWW(Direction.Forward, 1)
     ww.turnWW(LEFT_TURN)
     if (ww.locatePainting(Direction.Forward)) {
@@ -41,14 +40,11 @@ player.onChat("run", function () {
     while (!(false)) {
         
     }	
-})
 ```
 ```template
-player.onChat("run", function () {
     if (ww.locatePainting(Direction.Forward)) {
 
     }
-})
 ```
 ```package
 minecraft-ww1984=github:fc-minecraft/ww1984-ts

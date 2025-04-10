@@ -21,19 +21,15 @@
 ``||loops:повторить <число> раз||`` - Повторить код заданное *число* раз.
 
 ```ghost
-player.onChat("run", function () {
     for (let index = 0; index < 4; index++) {
         ww.moveWW(Direction.Forward, 1)
         ww.turnWW(LEFT_TURN)
         ww.placeBlock(BeamsGlass.YellowStainedGlass, Direction.Forward)
     }
-})
 ```
 ```template
-player.onChat("run", function () {
     ww.moveWW(Direction.Forward, 3)
     ww.placeBlock(BeamsGlass.LimeStainedGlass, Direction.Right)
-})
 ```
 ```package
 minecraft-ww1984=github:fc-minecraft/ww1984-ts
